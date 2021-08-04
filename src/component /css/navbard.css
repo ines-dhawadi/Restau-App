@@ -1,0 +1,69 @@
+.navbar-light{
+    background-color: var(--clr-bg-dark);
+    padding-left: 11% !important;
+    padding-right: 10% !important;
+  }
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border: none;
+    color: var(--clr-primary-light) !important;
+    border-bottom: solid 1px var(--clr-primary-light);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: -3px;
+  }
+  .form-control {
+    margin-left: 20px !important;
+    margin-top: -3px !important;
+    width: 100%;
+    border-radius: 0 !important;
+    font-size: .95rem !important;
+    color: var(--clr-primary-light) !important;
+    background: none !important;
+    border:none !important;
+    border-bottom: 1px solid var(--clr-primary-light) !important;
+  }
+  .heart{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--clr-primary-light);
+    cursor: pointer;
+  }
+  .favorite--value{
+    background-color: var(--clr-secondary-redish);
+    padding: 1px 6px !important;
+    border-radius: 50% ;
+    font-size: .5em;
+    position: absolute;
+    top: 12px !important;
+    right: 9%;
+    z-index: 1;
+    font-weight: bold;
+    color: var(--clr-primary-light) !important;
+  }
+  .ninja-icon{
+    position: absolute;
+    top: 15px !important;
+    right: 7%;
+  }
+  .heart:hover, .linked--brand:hover,
+  .linked--page:hover{
+    text-decoration: none;
+    color: #ff5600;
+  }
+  .linked--brand{
+    text-decoration: none;
+    color:var(--clr-primary-light);
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ff5600;
+  }
+  .linked--page{
+    color: var(--clr-primary-light);
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 10px 20px 10px 0 !important;
+    cursor: pointer;
+  }
